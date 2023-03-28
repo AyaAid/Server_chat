@@ -9,11 +9,12 @@
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
+
 <AnchorPane fx:id="ap_main" xmlns:fx="http://javafx.com/fxml"
             prefHeight="396" prefWidth="478"
             fx:controller="com.example.chat_serveur_client.Controller">
     <children>
-        <Button fx:id="buton_send" layoutX="404" layoutY="338" text="send"/>
+        <Button fx:id="button_send" layoutX="404" layoutY="338" text="send"/>
         <TextField fx:id="tf_message" layoutX="30" layoutY="338"
                     prefWidth="361" prefHeight="26"/>
         <ScrollPane fx:id="sp_main" layoutY="70" layoutX="30"
